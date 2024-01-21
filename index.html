@@ -186,7 +186,7 @@
 
     <main>
       <!-- ! banner section -->
-      <section class="container px-6 lg:px-0 hidden">
+      <section class="container px-6 lg:px-0">
         <div class="banner-bg px-5 md:px-0">
           <div
             class="space-y-6 flex flex-col items-center justify-center min-h-[550px]"
@@ -223,7 +223,7 @@
       </section>
 
       <!-- ! legal practice area -->
-      <section class="container px-6 lg:px-0 mt-24 lg:mt-32 hidden">
+      <section class="container px-6 lg:px-0 mt-24 lg:mt-32">
         <div>
           <h2 class="section-title">The Legal Practice Area</h2>
           <p
@@ -402,7 +402,7 @@
       </section>
 
       <!-- ! review section -->
-      <section class="container px-6 lg:px-0 mt-24 lg:mt-32 mb-20 hidden">
+      <section class="container px-6 lg:px-0 mt-24 lg:mt-32 mb-20">
         <div>
           <h3 class="section-title mb-2">What Our Client Say</h3>
           <p
@@ -567,7 +567,7 @@
       </section>
 
       <!-- ! Faq section -->
-      <section class="container px-6 lg:px-0 mt-24 lg:mt-32 mb-20 hidden">
+      <section class="container px-6 lg:px-0 mt-24 lg:mt-32 mb-20">
         <div>
           <h3 class="section-title mb-2">Frequently Asked Any Questions</h3>
           <p
@@ -755,11 +755,92 @@
                 placeholder="Your Message"
               ></textarea>
 
-              <button class="btn bg-gold text-white text-xl font-semibold btn-lg hover:bg-gold">Send Message</button>
+              <button
+                class="btn bg-gold text-white text-xl font-semibold btn-lg hover:bg-gold"
+              >
+                Send Message
+              </button>
             </form>
           </div>
         </div>
       </section>
     </main>
+
+    <footer class="bg-[#111]">
+      <div class="container px-6 lg:px-0 mt-24 lg:mt-32 py-24">
+        <!-- ! -->
+        <div
+          class="grid grid-cols-1 lg:grid-cols-[1fr_1fr_1fr_2fr] gap-10 text-white"
+        >
+          <div>
+            <header class="mb-8">
+              <img src="./images/logo.png" alt="" />
+            </header>
+            <p class="max-w-258 text-dark-5">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+          </div>
+          <nav>
+            <header
+              class="text-white text-2xl font-extrabold font-garamond mb-12"
+            >
+              Usefull Link
+            </header>
+            <div class="space-y-3">
+              <a class="text-dark-5 block">Homes</a>
+              <a class="text-dark-5 block">About Us</a>
+              <a class="text-dark-5 block">Cases</a>
+              <a class="text-dark-5 block">Contact Us</a>
+            </div>
+          </nav>
+          <nav>
+            <header
+              class="text-white text-2xl font-extrabold font-garamond mb-12"
+            >
+              Contact Now
+            </header>
+            <div class="space-y-3">
+              <a class="text-dark-5 leading-26 block"
+                >555 4th 5t NW, Washington <br />
+                DC 20530, United States</a
+              >
+              <a class="text-dark-5 leading-26 block"
+                >+88 01750 000 000 <br />
+                +88 01750 000 000</a
+              >
+              <a class="text-dark-5 leading-26 block"
+                >info@gmail.com <br />
+                info@gmail.com</a
+              >
+            </div>
+          </nav>
+          <!-- ! form -->
+          <form>
+            <header
+              class="text-white text-2xl font-extrabold font-garamond mb-12"
+            >
+              Subscribe
+            </header>
+            <p class="w-3/4 text-dark-5">
+              Subscribe for our latest & Articles. We Won’t Give You Spam Mails
+            </p>
+            <div
+              class="bg-white mt-6 h-[4.5rem] overflow-hidden flex rounded-lg max-w-96 lg:max-w-full"
+            >
+              <input
+                type="text"
+                placeholder="Email Address"
+                class="placeholder:text-dark-4 leading-26 flex-1 border-none outline-none pl-7"
+              />
+              <button class="bg-gold w-fit px-6">
+                <img src="./images/send.png" alt="" />
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
