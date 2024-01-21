@@ -56,6 +56,7 @@
               "dark-7": "#F3F3F3",
               "footer-bg": "#111111",
               gold: "#B68C5A",
+              "slider-bg": " #111111CC",
             },
             fontSize: {
               32: "2rem", // 32px
@@ -222,7 +223,7 @@
       </section>
 
       <!-- ! legal practice area -->
-      <section class="container px-6 lg:px-0 mt-24 lg:mt-32 h-48">
+      <section class="container px-6 lg:px-0 mt-24 lg:mt-32 hidden">
         <div>
           <h2 class="section-title">The Legal Practice Area</h2>
           <p
@@ -240,7 +241,7 @@
         >
           <!-- ! single card 1 -->
           <div
-            class="space-y-8 pt-14 pb-[4.375rem] border  border-dark-6 border-r-0"
+            class="space-y-8 pt-14 pb-[4.375rem] border border-dark-6 border-r-0"
           >
             <figure class="grid place-items-center">
               <img src="./images/business.png" alt="" />
@@ -318,7 +319,9 @@
           </div>
 
           <!-- ! single card 4 -->
-          <div class="space-y-8 pt-14 pb-[4.375rem] border border-dark-6 sm:border-t-0 lg:border-l-0 lg:border-r-0">
+          <div
+            class="space-y-8 pt-14 pb-[4.375rem] border border-dark-6 sm:border-t-0 lg:border-l-0 lg:border-r-0"
+          >
             <figure class="grid place-items-center">
               <img src="./images/education.png" alt="" />
             </figure>
@@ -343,7 +346,9 @@
           </div>
 
           <!-- ! single card 5 -->
-          <div class="space-y-8 pt-14 pb-[4.375rem] border-dark-6 border sm:border-r-0 sm:border-t-0 lg:border-t-0">
+          <div
+            class="space-y-8 pt-14 pb-[4.375rem] border-dark-6 border sm:border-r-0 sm:border-t-0"
+          >
             <figure class="grid place-items-center">
               <img src="./images/divorce.png" alt="" />
             </figure>
@@ -368,7 +373,9 @@
           </div>
 
           <!-- ! single card 6 -->
-          <div class="space-y-8 pt-14 pb-[4.375rem] border border-dark-6 sm:border-t lg:border-r-0 lg:border-l-0">
+          <div
+            class="space-y-8 pt-14 pb-[4.375rem] border border-dark-6 sm:border-t lg:border-r-0"
+          >
             <figure class="grid place-items-center">
               <img src="./images/tax.png" alt="" />
             </figure>
@@ -393,7 +400,169 @@
           </div>
         </div>
       </section>
+
+      <!-- ! review section -->
+      <section class="container px-6 lg:px-0 mt-24 lg:mt-32 mb-20">
+        <div>
+          <h3 class="section-title mb-2">What Our Client Say</h3>
+          <p class="mb-16 w-2/3 mx-auto text-center text-dark-3 leading-26 text-sm sm:text-base">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour.
+          </p>
+          <div
+            class="carousel w-full min-h-[31.25rem] rounded-lg overflow-hidden"
+          >
+            <!-- ! slide 1 -->
+            <div id="slide1" class="carousel-item relative w-full">
+              <div
+                class="hero"
+                style="background-image: url('./images/slider-1.jpg')"
+              >
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content p-0 text-center">
+                  <div class="">
+                    <img
+                      class="block mx-auto mb-6"
+                      src="./images/avatar.png"
+                      alt=""
+                    />
+                    <h3 class="text-white text-2xl font-extrabold text-center">
+                      Awlad Hossain
+                    </h3>
+                    <p class="leading-26 text-white mb-8">UIX Designer</p>
+                    <p
+                      class="text-white text-sm sm:text-base w-2/3 mx-auto text-center"
+                    >
+                      Contrary to popular belief, Lorem Ipsum is not simply
+                      random text. It has roots in a piece of classical Latin
+                      literature from 45 BC, making it over 2000 years old.
+                      Richard McClintock, a Latin professor at Hampden-Sydney
+                      College in Virginia, looked up one of the more obscure
+                      Latin words, consectetur.
+                    </p>
+                    <div
+                      class="w-[8.4375rem] h-[0.1875rem] bg-dark-3 mt-10 mx-auto before:w-11 before:h-[3px] before:bg-white relative before:absolute top-0 before:left-1/2 before:-translate-x-1/2"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+              >
+                <a
+                  href="#slide3"
+                  class="btn btn-circle btn-sm md:btn-md bg-gold text-white border-gold hover:bg-gold lg:text-xl"
+                  >❮</a
+                >
+                <a
+                  href="#slide2"
+                  class="btn btn-circle btn-sm md:btn-md bg-gold text-white border-gold hover:bg-gold lg:text-xl"
+                  >❯</a
+                >
+              </div>
+            </div>
+            <!-- ! slide 2 -->
+            <div id="slide2" class="carousel-item relative w-full">
+              <div
+                class="hero"
+                style="background-image: url('./images/slider-2.jpg')"
+              >
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content p-0 text-center">
+                  <div class="">
+                    <img
+                      class="block mx-auto mb-6"
+                      src="./images/avatar.png"
+                      alt=""
+                    />
+                    <h3 class="text-white text-2xl font-extrabold text-center">
+                      Awlad Hossain
+                    </h3>
+                    <p class="leading-26 text-white mb-8">UIX Designer</p>
+                    <p
+                      class="text-white text-sm sm:text-base w-2/3 mx-auto text-center"
+                    >
+                      Contrary to popular belief, Lorem Ipsum is not simply
+                      random text. It has roots in a piece of classical Latin
+                      literature from 45 BC, making it over 2000 years old.
+                      Richard McClintock, a Latin professor at Hampden-Sydney
+                      College in Virginia, looked up one of the more obscure
+                      Latin words, consectetur.
+                    </p>
+                    <div
+                      class="w-[8.4375rem] h-[0.1875rem] bg-dark-2 mt-10 mx-auto before:w-11 before:h-[3px] before:bg-white relative before:absolute top-0 before:left-1/2 before:-translate-x-1/2"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+              >
+                <a
+                  href="#slide1"
+                  class="btn btn-circle btn-sm md:btn-md bg-gold text-white border-gold hover:bg-gold lg:text-xl"
+                  >❮</a
+                >
+                <a
+                  href="#slide3"
+                  class="btn btn-circle btn-sm md:btn-md bg-gold text-white border-gold hover:bg-gold lg:text-xl"
+                  >❯</a
+                >
+              </div>
+            </div>
+            <!-- ! slide 3 -->
+            <div id="slide3" class="carousel-item relative w-full">
+              <div
+                class="hero"
+                style="background-image: url('./images/slider-3.jpg')"
+              >
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center">
+                  <div class="">
+                    <img
+                      class="block mx-auto mb-6"
+                      src="./images/avatar.png"
+                      alt=""
+                    />
+                    <h3 class="text-white text-2xl font-extrabold text-center">
+                      Awlad Hossain
+                    </h3>
+                    <p class="leading-26 text-white mb-8">UIX Designer</p>
+                    <p
+                      class="text-white text-sm sm:text-base w-2/3 mx-auto text-center"
+                    >
+                      Contrary to popular belief, Lorem Ipsum is not simply
+                      random text. It has roots in a piece of classical Latin
+                      literature from 45 BC, making it over 2000 years old.
+                      Richard McClintock, a Latin professor at Hampden-Sydney
+                      College in Virginia, looked up one of the more obscure
+                      Latin words, consectetur.
+                    </p>
+                    <div
+                      class="w-[8.4375rem] h-[0.1875rem] bg-dark-3 mt-10 mx-auto before:w-11 before:h-[3px] before:bg-white relative before:absolute top-0 before:left-1/2 before:-translate-x-1/2"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+              >
+                <a
+                  href="#slide2"
+                  class="btn btn-circle btn-sm md:btn-md bg-gold text-white border-gold hover:bg-gold lg:text-xl"
+                  >❮</a
+                >
+                <a
+                  href="#slide1"
+                  class="btn btn-circle btn-sm md:btn-md bg-gold text-white border-gold hover:bg-gold lg:text-xl"
+                  >❯</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-  
   </body>
 </html>
